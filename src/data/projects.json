@@ -15,7 +15,7 @@
     "pictures": [
       "../assets/projects/riding-cities/Riding-Cities_main.webp"
     ],
-    "github": "https://github.com/Matthieu83600/Riding-Cities"
+    "github": "https://github.com/azize1999"
   },
   {
     "id": "project2",
@@ -35,7 +35,7 @@
     "pictures": [
       "../assets/projects/booki/booki.webp"
     ],
-    "github": "https://github.com/Matthieu83600/Booki"
+    "github": "https://github.com/azize1999"
   },
   {
     "id": "project3",
@@ -55,7 +55,7 @@
     "pictures": [
       "../assets/projects/ohmyfood/ohmyfood_main.webp"
     ],
-    "github": "https://github.com/Matthieu83600/OhMyFood"
+    "github": "https://github.com/azize1999"
   },
   {
     "id": "project4",
@@ -71,7 +71,7 @@
     "pictures": [
       "../assets/projects/print-it/printit_main.webp"
     ],
-    "github": "https://github.com/Matthieu83600/Print-It"
+    "github": "https://github.com/azize1999"
   },
   {
     "id": "project5",
@@ -91,7 +91,7 @@
     "pictures": [
       "../assets/projects/portfolio-sophie-bluel/sophie_main.webp"
     ],
-    "github": "https://github.com/Matthieu83600/Portfolio-Sophie-Bluel"
+    "github": "https://github.com/azize1999"
   },
   {
     "id": "project7",
@@ -112,7 +112,7 @@
     "pictures": [
       "../assets/projects/kasa/kasa_main.webp"
     ],
-    "github": "https://github.com/Matthieu83600/Kasa"
+    "github": "https://github.com/azize1999"
   },
   {
     "id": "project8",
@@ -128,7 +128,7 @@
     "pictures": [
       "../assets/projects/nina-carducci/nina_main.webp"
     ],
-    "github": "https://github.com/Matthieu83600/Nina-Carducci"
+    "github": "https://github.com/azize1999"
   },
   {
     "id": "project9",
@@ -147,7 +147,7 @@
     "pictures": [
       "../assets/projects/724events/724_main.webp"
     ],
-    "github": "https://github.com/Matthieu83600/724events"
+    "github": "https://github.com/azize1999"
   },
   {
     "id": "project10",
@@ -175,6 +175,6 @@
     "pictures": [
       "../assets/projects/argent-bank/argentbank_main.webp"
     ],
-    "github": "https://github.com/Matthieu83600/ArgentBank-FrontEnd"
+    "github": "https://github.com/azize1999"
   }
 ]

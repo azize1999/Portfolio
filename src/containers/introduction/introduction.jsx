@@ -19,10 +19,10 @@ const Introduction = () => {
         Je suis motivé par l'idée d'explorer de nouvelles opportunités et d'approfondir mes compétences en développement web.
         </p>
         <div className="intro__links">
-          <a href="https://github.com/xxxxxxxxx" target="blank" className="intro__link">
+          <a href="https://github.com/azize1999/Portfolio" target="blank" className="intro__link">
             <img src={GitHub} alt="Lien vers mon profil GitHub" />
           </a>
-          <a href="https://www.linkedin.com/in/xxxxxx/" target="blank" className="intro__link">
+          <a href="https://github.com/azize1999/Portfolio" target="blank" className="intro__link">
             <img src={LinkedIn} alt="Lien vers mon profil LinkedIn" />
           </a>
         </div>

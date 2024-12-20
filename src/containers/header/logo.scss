@@ -1,0 +1,12 @@
+@import '../../breakpoint';
+
+.header__logo {
+  & img {
+    @include tablet {
+      top: 0;
+      left: 0;
+      height: auto;
+      width: 40px;
+    }
+  }
+}

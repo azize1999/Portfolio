@@ -1,0 +1,180 @@
+[
+  {
+    "id": "project1",
+    "title": "Riding Cities",
+    "category": "HTML",
+    "briefDescription": "Riding Cities est une association sportive qui promeut le skate en région parisienne. L'association souhaite améliorer son site internet.",
+    "cover": "../assets/projects/riding-cities/cover.webp",
+    "alt": "Photo d'un skateboard",
+    "description": "Le projet 2 du parcours Intégrateur Web nous permet de découvrir le langage HTML au travers du site Internet de Riding Cities. ",
+    "mission": "Je rejoins l'agence Webonzaï pour un stage en tant que développeur junior. Romain, mon maître de stage, me demande d'actualiser la page Internet de Riding Cities en créant une nouvelle section appelée : Les Membres Fondateurs ; ainsi que la modification de la section existante des plannings en introduisant deux plannings : l'un pour les enfants et l'autre pour les adultes. Et, ainsi que la mise en place du CSS existant sur les nouveaux éléments.",
+    "competences": [
+      "Intégrer des éléments sur une page web en utilisant les fondamentaux de HTML."
+    ],
+    "tags": ["HTML", "CSS"],
+    "pictures": [
+      "../assets/projects/riding-cities/Riding-Cities_main.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/Riding-Cities"
+  },
+  {
+    "id": "project2",
+    "title": "Booki",
+    "category": "HTML",
+    "briefDescription": "Booki est une start-up qui souhaite permettre aux utilisateurs de trouver des hébergements et des activités dans la ville de leur choix.",
+    "cover": "../assets/projects/booki/cover.webp",
+    "alt": "Photo d'un hébergement du site de Booki",
+    "description": "Le projet 3 du parcours Intégrateur Web nous permet d'intégrer l'interface du site de Booki en utilisant du code HTML et CSS.",
+    "mission": "Je rejoins la start-up Booki en tant que développeur en alternance. Je travaille en étroite collaboration avec ma cheffe technique Sarah et le designer Loïc pour mettre en place l'interface du site et responsive.",
+    "competences": [
+      "Installer un environnement de développement front-end",
+      "Implémenter une interface responsive avec HTML et CSS.",
+      "Intégrer du contenu conformément à une maquette avec HTML et CSS."
+    ],
+    "tags": ["HTML", "CSS", "Responsive", "VSCode", "Figma"],
+    "pictures": [
+      "../assets/projects/booki/booki.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/Booki"
+  },
+  {
+    "id": "project3",
+    "title": "Ohmyfood",
+    "category": "HTML",
+    "briefDescription": "Ohmyfood est une jeune start-up qui souhaite s'imposer sur le marché de la restauration. Déjà présente à New-York, elle souhaite faire sa place à Paris.",
+    "cover": "../assets/projects/ohmyfood/cover.webp",
+    "alt": "Photo d'un plat d'un restaurant",
+    "description": "Le projet 4 du parcours Intégrateur Web consite à intégrer l'interface du site d'Ohmyfood en commençant par la version mobile.",
+    "mission": "Je rejoins la start-up Ohmyfood qui souhaite s'imposer sur la marché de la restauration parisienne. Paul, mon chef technique, me demande alors d'intégrer l'interface mobile et responsive tout en mettant en place des animations CSS.",
+    "competences": [
+      "Intégrer une maquette en mobile-first.",
+      "Mettre en œuvre des animations CSS.",
+      "Versionner son projet avec Git et Github."
+    ],
+    "tags": ["HTML", "Sass", "Responsive", "VSCode", "Figma", "Git", "GitHub"],
+    "pictures": [
+      "../assets/projects/ohmyfood/ohmyfood_main.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/OhMyFood"
+  },
+  {
+    "id": "project4",
+    "title": "Print It",
+    "category": "JavaScript",
+    "briefDescription": "Print It est une petite entreprise familiale. Elle souhaite dynamiser son site internet en y ajoutant un carrousel.",
+    "cover": "../assets/projects/print-it/cover.webp",
+    "alt": "Photo d'imagerie",
+    "description": "Le projet 5 du parcours Intégrateur Web nous permet de découvrir le langage JavaScript au travers du site de Print It.",
+    "mission": "Je débute en tant que intégrateur front-end en freelance, et je décroche l'offre qui consiste à dynamiser le site Internet statique de Print It. Le directeur, Lucien Gerodo, me demande alors de réaliser un carrousel dynamique.",
+    "competences": ["Programmer en utilisant les fondamentaux de JavaScript"],
+    "tags": ["HTML", "CSS", "JavaScript", "VSCode"],
+    "pictures": [
+      "../assets/projects/print-it/printit_main.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/Print-It"
+  },
+  {
+    "id": "project5",
+    "title": "Portfolio - Sophie Bluel",
+    "category": "JavaScript",
+    "briefDescription": "Sophie Bluel est une architecte d'intérieur qui souhaite mettre en avant son travail avec un site portfolio où elle pourra elle-même les ajouter en se connectant à son interface administrateur.",
+    "cover": "../assets/projects/portfolio-sophie-bluel/cover.webp",
+    "alt": "Photo de rénovation d'un bar",
+    "description": "Le projet 6 du parcours Intégrateur Web nous emmène sur la conception du site portfolio d'une architecte en utilisant JavaScript et en communiquant avec une API.",
+    "mission": "Je travaille comme intégrateur front-end pour l'agence ArchiWebos. Ayant terminé mon dernier projet, je suis envoyé en renfort sur la conception du site portfolio de l'architecte Sophie Bluel. Charlotte, la cheffe de projet, me demande alors de créer à partir de la maquette l'interface du site ainsi que la gestion du compte de l'architecte en communiquant avec une API créée par la développeuse back-end. La connexion avec l'API permettra à Sophie Bluel de pouvoir se connecter et intéragir en ajoutant / supprimant ses travaux.",
+    "competences": [
+      "Manipuler les éléments du DOM avec JavaScript.",
+      "Gérer les événements utilisateurs avec JavaScript.",
+      "Récupérer les données utilisateurs dans le JavaScript via des formulaires."
+    ],
+    "tags": ["HTML", "CSS", "JavaScript", "Figma", "API", "Swagger"],
+    "pictures": [
+      "../assets/projects/portfolio-sophie-bluel/sophie_main.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/Portfolio-Sophie-Bluel"
+  },
+  {
+    "id": "project7",
+    "title": "Kasa",
+    "category": "React",
+    "briefDescription": "Kasa est dans le métier de la location d'appartements entre particuliers depuis maintenant 10 ans, et souhaite aujourd'hui développer une nouvelle plateforme web avec React.",
+    "cover": "../assets/projects/kasa/cover.webp",
+    "alt": "Logo de Kasa",
+    "description": "Le projet 8 du parcours Intégrateur Web consiste à développer la nouvelle plateforme web de Kasa en utilisant React.",
+    "mission": "Kasa me recrute en tant que intégrateur front-end en freelance. Laura, la cheffe technique, me demande de mettre en place la nouvelle plateforme web en utilisant React, grâce aux maquettes créées par Paul le designer de l'équipe.",
+    "competences": [
+      "Initialiser une application avec Create React App.",
+      "Configurer la navigation entre les pages de l'application avec React Router.",
+      "Développer des éléments de l'interface d'un site web grâce à des composants React.",
+      "Développer une interface web avec Sass."
+    ],
+    "tags": ["React", "React-Router", "Sass", "Responsive", "VSCode", "Figma"],
+    "pictures": [
+      "../assets/projects/kasa/kasa_main.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/Kasa"
+  },
+  {
+    "id": "project8",
+    "title": "Nina Carducci",
+    "category": "SEO",
+    "briefDescription": "Je propose mes services d'optimisation SEO à plusieurs clients. Et Nina Carducci, photographe expérimentée basée à Bordeaux accepte ma proposition d'optimisation de son site.",
+    "cover": "../assets/projects/nina-carducci/cover.webp",
+    "alt": "Photo de mariage prise par Nina Carducci",
+    "description": "Le projet 9 du parcours Intégrateur Web consiste à améliorer les performances et le référencement naturel du site d'un client.",
+    "mission": "Je suis intégrateur front-end en freelance, et je me décide à proposer mes services d'optimisation SEO à de nouveaux clients. Je prends contact avec les administrateurs de divers sites pouvant être optimisés. Nina Carducci, photographe professionnelle à Bordeaux, accepte ma proposition d'optimisation de son site. Ma mission est donc d'optimiser son site tant sur les performances que sur le SEO. Et de mettre en avant cette optimisation en lui fournissant un rapport d'optimisation, lui présentant toutes les actions effectuées ainsi que leur impact.",
+    "competences": ["Optimiser la performance d'un site web."],
+    "tags": ["HTML", "CSS", "JavaScript", "Responsive", "SEO"],
+    "pictures": [
+      "../assets/projects/nina-carducci/nina_main.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/Nina-Carducci"
+  },
+  {
+    "id": "project9",
+    "title": "724 events",
+    "category": "Debug",
+    "briefDescription": "L'agence d'événementielle 724events me contacte pour son site vitrine afin de reprendre le développement et débugger le travail déjà mis en place par un autre développeur.",
+    "cover": "../assets/projects/724events/cover.webp",
+    "alt": "Conférence d'un événement de 724events",
+    "description": "Le projet 10 du parcours Intégrateur Web consiste à débugger le site d'une agence d'événementiel appelée 724events.",
+    "mission": "Je suis intégrateur front-end en freelance et l'agence 724events me contacte. La mission confiée par Jean-Baptiste, le directeur marketing, est la suivante : débugger le code du site déjà mis en place par un autre développeur qui a dû arrêté le développement, mettre en place des tests unitaires et fonctionnels ainsi que la rédaction d'un cahier de recette comprenant les différents scénarios possibles pour tester le site.",
+    "competences": [
+      "Débugger un site web grâce aux Chrome DevTools.",
+      "Rédiger un cahier de recette pour tester un site."
+    ],
+    "tags": ["React", "Tests", "Debug", "Chrome DevTools"],
+    "pictures": [
+      "../assets/projects/724events/724_main.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/724events"
+  },
+  {
+    "id": "project10",
+    "title": "Argent Bank",
+    "category": "React",
+    "briefDescription": "J'intègre Argent Bank, une nouvelle banque en ligne qui souhaite que j'implémente le front-end de son application en utilisant React.",
+    "cover": "../assets/projects/argent-bank/cover.webp",
+    "alt": "Bannière du site",
+    "description": "Le projet 11 du parcours Intégrateur Web consiste à implémenter le front-end d'une application bancaire : Argent Bank en utilisant React.",
+    "mission": "J'intègre Argent Bank comme intégrateur front-end. Avery Moreau, chef technique, me confie la mission d'implémenter le front-end de notre application et le tableau de bord de l'utilisateur en communiquant avec l'API.",
+    "competences": [
+      "Implémenter la gestion des données avec Redux pour assurer le fonctionnement du front.",
+      "Configurer des routes API pour la communication client / serveur.",
+      "Afficher les données du back end sur l'interface via des appels API."
+    ],
+    "tags": [
+      "React",
+      "React-Router",
+      "Redux",
+      "Sass",
+      "API",
+      "Swagger",
+      "Responsive"
+    ],
+    "pictures": [
+      "../assets/projects/argent-bank/argentbank_main.webp"
+    ],
+    "github": "https://github.com/Matthieu83600/ArgentBank-FrontEnd"
+  }
+]

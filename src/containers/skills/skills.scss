@@ -1,0 +1,85 @@
+@import '../../breakpoint';
+
+.skills {
+  margin: 60px auto;
+  max-width: 1200px;
+  padding: 20px;
+  text-align: center;
+  background: #f8f9fa;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #333;
+    text-transform: uppercase;
+
+    @include tablet {
+      font-size: 2rem;
+    }
+
+    @include mobile {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__display {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include mobile {
+      flex-direction: column;
+    }
+  }
+
+  &__card {
+    flex: 1;
+    min-width: 300px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+
+    &:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    }
+
+    @include tablet {
+      padding: 15px;
+    }
+
+    @include mobile {
+      width: 100%;
+    }
+
+    &-title {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      color: #444;
+      text-transform: uppercase;
+
+      @include tablet {
+        font-size: 1.5rem;
+      }
+
+      @include mobile {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  &__tools {
+    background: linear-gradient(135deg, #e0f7fa, #80deea);
+  }
+
+  &__languages {
+    background: linear-gradient(135deg, #ede7f6, #b39ddb);
+  }
+}

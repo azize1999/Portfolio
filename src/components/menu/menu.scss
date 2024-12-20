@@ -1,0 +1,64 @@
+@import '../../breakpoint';
+
+.header__menu {
+  margin-top: 20px;
+
+  & ul {
+    display: flex;
+    gap: 30px;
+
+    @include tablet {
+      gap: 20px;
+    }
+
+    @include mobile {
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+    }
+
+    & li {
+      font-size: 20px;
+      position: relative;
+
+      @include tablet {
+        font-size: 18px;
+      }
+
+      @include mobile {
+        font-size: 24px;
+      }
+
+      .link-theme {
+        position: relative;
+        display: inline-block;
+        color: #333;
+        text-decoration: none;
+        font-weight: 600;
+        letter-spacing: 1px;
+        transition: color 0.3s ease-in-out;
+
+        &:hover {
+          color: #2200B8; 
+
+          &::before {
+            transform: scaleX(1);
+          }
+        }
+
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: -4px;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background-color: #2200B8;
+          transform: scaleX(0);
+          transform-origin: left;
+          transition: transform 0.3s ease-in-out;
+        }
+      }
+    }
+  }
+}

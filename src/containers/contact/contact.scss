@@ -1,0 +1,63 @@
+@import '../../breakpoint';
+
+.contact {
+  margin: 80px auto;
+  max-width: 800px;
+  padding: 40px 20px;
+  background: #f4f5f7;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+
+    &::after {
+      content: '';
+      display: block;
+      width: 60px;
+      height: 4px;
+      background-color: #007bff;
+      margin: 10px auto 0;
+      border-radius: 2px;
+    }
+
+    @include tablet {
+      font-size: 2rem;
+    }
+
+    @include mobile {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__description {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 30px;
+
+    @include tablet {
+      font-size: 1rem;
+    }
+  }
+
+  &__form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+
+    @include mobile {
+      padding: 15px;
+    }
+  }
+}

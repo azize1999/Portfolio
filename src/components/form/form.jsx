@@ -34,7 +34,7 @@ const Form = () => {
           placeholder="Votre nom"
           required
         />
-
+  
         <label className="form__label" htmlFor="firstname">Prénom</label>
         <input
           className="form__input"

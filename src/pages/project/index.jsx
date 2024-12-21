@@ -7,7 +7,7 @@ import './project.scss';
 const Project = () => {
   const { id } = useParams();
   const project = Projects.find((proj) => proj.id === id);
-
+//Recherche dans un tableau `Projects` pour trouver un projet dont l'identifiant (`proj.id`)
   if (!project) {
     return <Error />;
   }
@@ -60,11 +60,6 @@ const ProjectLinks = ({ github, site }) => (
     <a href={github} target="_blank" rel="noopener noreferrer" className="project__link-button">
       <span>🔗</span> Code GitHub
     </a>
-    {site && (
-      <a href={site} target="_blank" rel="noopener noreferrer" className="project__link-button">
-        <span>🌐</span> Démo du site
-      </a>
-    )}
   </div>
 );
 

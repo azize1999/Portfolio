@@ -2,17 +2,20 @@ import React, { useRef } from 'react';
 import './form.scss';
 
 const Form = () => {
-  const form = useRef();
-  const dialog = useRef();
+  // Déclarations des références DOM avec `useRef`
+  const form = useRef(); // Référence pour le formulaire
+  const dialog = useRef(); // Référence pour la boîte de dialogue
 
+  // Gestionnaire de soumission du formulaire
   const handleSendEmail = (e) => {
-    e.preventDefault();
-    form.current.reset();
-    dialog.current.showModal();
+    e.preventDefault(); // Empêche l'action par défaut du formulaire (rechargement de la page)
+    form.current.reset(); // Réinitialise les champs du formulaire
+    dialog.current.showModal(); // Ouvre la boîte de dialogue
   };
 
+  // Gestionnaire pour fermer la boîte de dialogue
   const closeHandler = () => {
-    dialog.current.close();
+    dialog.current.close(); // Ferme la boîte de dialogue
   };
 
   return (

@@ -1,6 +1,5 @@
 import MaPhoto from '../../img/photo/moi.webp';
 import GitHub from '../../img/icones/github.png';
-import LinkedIn from '../../img/icones/linkedin.png';
 import './introduction.scss';
 
 const Introduction = () => {
@@ -21,9 +20,6 @@ const Introduction = () => {
         <div className="intro__links">
           <a href="https://github.com/azize1999/Portfolio" target="blank" className="intro__link">
             <img src={GitHub} alt="Lien vers mon profil GitHub" />
-          </a>
-          <a href="https://github.com/azize1999/Portfolio" target="blank" className="intro__link">
-            <img src={LinkedIn} alt="Lien vers mon profil LinkedIn" />
           </a>
         </div>
       </div>
